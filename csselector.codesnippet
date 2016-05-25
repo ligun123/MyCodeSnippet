@@ -9,8 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#void#&gt;)&lt;#selector#&gt;:(&lt;#id#&gt;)sender
-{
+	<string>- (&lt;#void#&gt;)&lt;#selector#&gt;:(&lt;#id#&gt;)sender {
     &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
