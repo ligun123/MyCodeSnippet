@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csselector</string>
+	<string>rstrongify</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#void#&gt;)&lt;#selectorName#&gt; {
-    &lt;#code#&gt;
-}</string>
+	<string>@strongify(&lt;#self#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EF2BE4D-9D3E-4CBE-A0F8-310ECDF349C6</string>
+	<string>74AC0EDD-D78C-4173-98C2-313567B6A9A0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CSSelector</string>
+	<string>RACStrongify</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

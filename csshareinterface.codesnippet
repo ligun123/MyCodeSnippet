@@ -9,11 +9,11 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>+ (instancetype)shared&lt;#name#&gt; {
-    static &lt;#class#&gt; *_shared&lt;#name#&gt; = nil;
+	<string>+ (instancetype)shareInterface {
+    static &lt;#class#&gt; *_sharedInterface = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&amp;onceToken, ^{
-        _shared&lt;#name#&gt; = &lt;#initializer#&gt;;
+        _sharedInterface = &lt;#initializer#&gt;;
     });
     
     return _shared&lt;#name#&gt;;

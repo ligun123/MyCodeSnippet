@@ -10,8 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>
-- (IBAction)&lt;#ActionName#&gt;:(id)sender
-{
+- (IBAction)&lt;#ActionName#&gt;:(id)sender {
     &lt;#Code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

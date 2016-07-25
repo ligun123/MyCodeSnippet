@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>csselector</string>
+	<string>cccreateimp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (&lt;#void#&gt;)&lt;#selectorName#&gt; {
-    &lt;#code#&gt;
-}</string>
+	<string>&lt;#Type#&gt; *pRet = new(std::nothrow) &lt;#Type#&gt;();
+    if (pRet &amp;&amp; pRet-&gt;init()) {
+        pRet-&gt;autorelease();
+        return pRet;
+    } else {
+        delete pRet;
+        pRet = nullptr;
+        return nullptr;
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EF2BE4D-9D3E-4CBE-A0F8-310ECDF349C6</string>
+	<string>B2D3F406-0BC8-48FD-873D-6F93BE56E8CF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.C-Plus-Plus</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>CSSelector</string>
+	<string>CCCreateImp</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
